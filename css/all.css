@@ -1,0 +1,1152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 響應式設計*/
+img{
+        max-width:100%;
+        height:auto;
+}
+/*從這行以下開始*/
+
+
+
+body{
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #000;
+	
+}
+.main{
+	background-color:white;
+}
+.wrap{
+	
+    background-image: url('https://i.imgur.com/JAy00h4.png');
+    background-repeat: no-repeat;
+	max-width: 1024px;
+}
+
+.wrap h2{
+	margin-top:10px;
+	margin-left: 380.5px;
+	margin-bottom: 96px;
+	font-family:PingFangTC-Regular;
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 3.89px;
+}
+
+.countrySelect{
+	background: rgba(255,255,255,0.70);
+    border: 3px solid #FFFFFF;
+	border-radius: 3px;
+	width: 452px;
+	height: 48px;
+	margin-left: 293px;
+	margin-bottom: 79px;
+}
+
+.hotcountry{
+	width: 800px;
+	height: 112px;
+	background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    border-radius: 5px;
+    margin-left: 112px;
+}
+
+.hotcountry h3{
+	font-family:AppleSystemUIFont;
+    font-size: 18px;
+	color: #000000;
+	padding-top:20px;
+	padding-left:26px;
+	margin-bottom: 14px;
+
+}
+
+.hotcountryList{
+	
+}
+
+.hotcountryList input{
+	float:left;
+	border-radius: 5px;
+	width: 130px;
+	height: 42px;
+	text-align:center;
+	line-height:40px;
+	font-family:PingFangTC-Regular;
+	font-size: 20px;
+	margin-right: 30px;
+	
+	
+}
+.hotcountryList input::after{
+	clear: both;
+}
+
+.hotcountryList a{
+	text-decoration:none;
+}
+
+.list1{
+	color: #FFFFFF;
+	background: #8A82CC;
+	margin-left: 51px;
+	
+}
+
+.list2{
+	color: rgb(85, 44, 44);
+	background:#FFA782;
+	
+}
+
+.list3{
+	color: #FFFFFF;
+	background: #F5D105;
+	
+}
+
+.list4{
+	color: #FFFFFF;
+	background: #559AC8;
+	
+	
+}
+
+
+.hr{
+	width: 900px;
+	height: 0;
+	border-bottom: 1px dashed #559AC8;
+	margin-left: 61px;
+	margin-top:49px;
+	position: relative;
+	margin-bottom: 76px;
+	
+}
+.hrimg{
+	height: 24px;
+	width: 24px;
+	border: 1px solid #559AC8 ;
+	position: absolute;
+	left:430px;
+	border-radius: 100%;
+
+}
+.hr img{
+	padding-left:4px;
+	padding-top: 8px;
+		
+}
+
+.locationIntroduction{
+	width: 98%;
+	margin-left: 1%;
+}
+
+.locationIntroductionTitle{
+	font-family: SFNSDisplay;
+    font-size: 36px;
+	color: #8A82CC;
+	margin-left:440px;
+	margin-bottom:24px;
+}
+
+.locationIntroductionList{
+	height: 700px;
+	overflow: scroll;
+    scroll-behavior: smooth;
+	
+}
+
+
+.locationIntroductionLi{
+	width: 464px;
+	height: 273px;
+	float:left;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 36px;
+	position: relative;
+}
+
+
+
+.liimg{
+	height: 155px;
+}
+
+.locationIntroductionLi h2{
+	font-family: SFNSDisplay;
+    font-size: 24px;
+	color: #FFFFFF;
+	position: absolute;
+	top:117px;
+	left:22px;
+	color: white; 
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.locationIntroductionLi h3{
+	font-family: PingFangTC-Regular;
+    font-size: 16px;
+	color: #FFFFFF;
+	position: absolute;
+	top:125px;
+	left:391px;
+	color: white; 
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+
+.openDate{
+	font-family: AppleSystemUIFont;
+    font-size: 14px;
+	color: #000000;
+	position: absolute;
+	top:171px;
+	left:50px;
+	line-height:18px;
+}
+
+.lilocal{
+	font-family: AppleSystemUIFont;
+    font-size: 14px;
+	color: #000000;
+	position: absolute;
+	top:218px;
+	left:50px;
+	line-height:18px;
+}
+
+.litel{
+	font-family: AppleSystemUIFont;
+    font-size: 14px;
+	color: #000000;
+	position: absolute;
+	top:265px;
+	left:50px;
+}
+
+.liticket{
+	font-family: PingFangTC-Regular;
+    font-size: 14px;
+    color: #000000;
+	position: absolute;
+	top : 265px;
+	left : 250px;
+}
+
+.cleanfix{
+	clear: both;
+}
+
+
+.footer{
+	margin-top: 39px;
+	width: 1024px;
+	height: 90px;
+	background: #559AC8;
+	postion:fixed;bottom:0;
+	position: relative;
+}
+
+.footer h3{
+	font-family: AppleSystemUIFont;
+    font-size: 14px;
+	color: #FFFFFF;
+	line-height:17px;
+	position: absolute;
+	top:24px;
+	left:477px;
+}
+
+.footer p{
+	font-family: AppleSystemUIFont;
+    font-size: 14px;
+	color: #FFD366;
+	line-height:17px;
+	position: absolute;
+	top:53px;
+	left:440px;
+}
+
+/*RWD*/
+
+@media(max-width:1024px){
+	
+body{
+	max-width: 100%;	
+}
+.main{
+	width: 100%;
+}
+
+.wrap{
+	margin: 0 2.5% ;
+	max-width:95%;
+
+}
+
+.wrap h2{
+	margin-top:1%;
+	margin-left: 0;
+	text-align: center;
+    font-size: 48px;
+}
+
+.countrySelect{
+    border: 3px solid #FFFFFF;
+	width: 50%;
+	height:60px;
+	font-size: 30px;
+	margin-left:25%;
+	margin-bottom: 8%;
+}
+
+.hotcountry{
+	width:90%;
+	height: 90px;
+    margin:0 5%;
+}
+
+.hotcountry h3{
+    font-size: 20px;
+	padding-top:10px;
+	padding-left:0px;
+	text-align: center;
+	margin-bottom: 1%;
+
+}
+
+
+
+.hotcountryList input{
+	float:left;
+	width: 20%;
+	height: 42px;
+	line-height:40px;
+	font-size: 20px;
+	margin:0 2.5%;
+}
+
+
+
+
+.hr{
+	width: 90%;
+	height: 0;
+	border-bottom: 1px dashed #559AC8;
+	margin-left: 5%;
+	margin-top:10px;
+	position: relative;
+	margin-bottom: 30px;
+	
+}
+.hrimg{
+	height: 24px;
+	width: 24px;;
+	left:48%;
+
+
+}
+.hr img{
+	padding-left:4px;
+	padding-top: 8px;
+		
+}
+
+.locationIntroduction{
+	width:100%;
+	margin-left: 0px;
+
+}
+
+.locationIntroductionTitle{
+	
+    font-size: 36px;
+	color: #8A82CC;
+	margin-left:0;
+	text-align: center;
+	margin-bottom:24px;
+}
+
+.locationIntroductionList{
+	height: 700px;
+	overflow: scroll;
+    scroll-behavior: smooth;
+	
+}
+
+
+
+.locationIntroductionLi{
+	width: 464px;
+	height: 300px;
+	float:left;
+	margin-left: 28px;
+	margin-right: 8px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+
+
+.liimg{
+	height: 155px;
+}
+
+.locationIntroductionLi h2{
+
+    font-size: 24px;
+	top:20px;
+	left:22px;
+
+}
+
+.locationIntroductionLi h3{
+
+    font-size: 16px;
+
+	top:125px;
+	left:370px;
+
+}
+
+
+.openDate{
+
+    font-size: 14px;
+
+	top:171px;
+	left:50px;
+	line-height:18px;
+}
+
+.lilocal{
+
+    font-size: 14px;
+
+	top:218px;
+	left:50px;
+	line-height:18px;
+}
+
+.litel{
+
+    font-size: 14px;
+	color: #000000;
+
+	top:265px;
+	left:50px;
+}
+
+.liticket{
+    font-size: 14px;
+	top : 265px;
+	left : 250px;
+}
+
+.cleanfix{
+	clear: both;
+}
+
+
+.footer{
+	margin-top: 0px;
+	width: 100%;
+	height: 90px;
+	background: #559AC8;
+}
+
+.footer h3{
+
+    font-size: 28px;
+
+	line-height:28px;
+	position: absolute;
+	top:10%;
+	left:450px;
+}
+
+.footer p{
+
+    font-size: 28px;
+
+	line-height:28px;
+	position: absolute;
+	top:50%;
+	left:400px;
+}
+}
+
+@media(max-width:768px){
+	
+	body{
+		max-width: 100%;	
+	}
+	.main{
+		width: 100%;
+	}
+	
+	.wrap{
+		margin: 0 2.5% ;
+		max-width:95%;
+	
+	}
+	
+	.wrap h2{
+		margin-top:1%;
+		margin-left: 0;
+		text-align: center;
+		font-size: 40px;
+		margin-bottom:20px;
+	}
+	
+	.countrySelect{
+		border: 3px solid #FFFFFF;
+		width: 70%;
+		height:60px;
+		font-size: 24px;
+		margin-left:15%;
+		margin-bottom: 5%;
+	}
+	
+	.hotcountry{
+		width:90%;
+		height: 90px;
+		margin:0 5%;
+	}
+	
+	.hotcountry h3{
+		font-size: 20px;
+		padding-top:10px;
+		padding-left:0px;
+		text-align: center;
+		margin-bottom: 1%;
+	
+	}
+	
+	
+	
+	.hotcountryList input{
+		float:left;
+		width: 20%;
+		height: 42px;
+		line-height:32px;
+		font-size: 16px;
+		margin:0 2.5%;
+	}
+	
+	
+	
+	
+	.hr{
+		width: 90%;
+		height: 0;
+		border-bottom: 1px dashed #559AC8;
+		margin-left: 5%;
+		margin-top:10px;
+		position: relative;
+		margin-bottom: 30px;
+		
+	}
+	.hrimg{
+		height: 24px;
+		width: 24px;;
+		left:48%;
+	
+	
+	}
+	.hr img{
+		padding-left:4px;
+		padding-top: 8px;
+			
+	}
+	
+	.locationIntroduction{
+		width:95%;
+		margin-left: 0px;
+	
+	}
+	
+	.locationIntroductionTitle{
+		
+		font-size: 36px;
+		color: #8A82CC;
+		margin-left:0;
+		text-align: center;
+		margin-bottom:24px;
+	}
+	
+	.locationIntroductionList{
+		height: 700px;
+		overflow: scroll;
+		scroll-behavior: smooth;
+		
+	}
+	
+	
+	
+	.locationIntroductionLi{
+		width: 45%;
+		height: 320px;
+		float:left;
+		margin-left: 4%;
+		margin-right: 1%;
+		margin-bottom:25px;
+		position: relative;
+	}
+	
+	
+	
+	.liimg{
+		height: 155px;
+	}
+	
+	.locationIntroductionLi h2{
+	
+		font-size: 24px;
+		top:20px;
+		left:22px;
+	
+	}
+	
+	.locationIntroductionLi h3{
+	
+		font-size: 16px;
+	
+		top:135px;
+		left:220px;
+	
+	}
+	
+	
+	.openDate{
+	
+		font-size: 16px;
+	
+		top:160px;
+		left:0px;
+		line-height:20px;
+	}
+	
+	.lilocal{
+	
+		font-size: 16px;
+	
+		top:222px;
+		left:0px;
+		line-height:20px;
+	}
+	
+	.litel{
+	
+		font-size: 16px;
+		top:310px;
+		left:0px;
+		line-height:32px;
+	}
+	
+	.liticket{
+		font-size: 16px;
+		top : 310px;
+		left : 200px;
+		line-height:32px;
+	}
+	
+	.cleanfix{
+		clear: both;
+	}
+	
+	
+	.footer{
+		width: 100%;
+		height: 90px;
+	}
+	
+	.footer h3{
+	
+		font-size: 28px;
+	
+		line-height:17px;
+		position: absolute;
+		top:20%;
+		left:300px;
+	}
+	
+	.footer p{
+	
+		font-size: 28px;
+	
+		line-height:17px;
+		position: absolute;
+		top:60%;
+		left:240px;
+	}
+	}
+
+	@media(max-width:414px){
+	
+		body{
+			max-width: 100%;	
+		}
+		.main{
+			width: 100%;
+		}
+		
+		.wrap{
+			margin: 0 2.5% ;
+			max-width:95%;
+		
+		}
+		
+		.wrap h2{
+			margin-top:0.5%;
+			margin-left: 0;
+			text-align: center;
+			font-size: 32px;
+			margin-bottom: 10px;
+		}
+		
+		.countrySelect{
+			border: 3px solid #FFFFFF;
+			width: 70%;
+			height:30px;
+			font-size: 15px;
+			margin-left:15%;
+			margin-bottom: 5%;
+		}
+		
+		.hotcountry{
+			width:90%;
+			height:105px;
+			margin:0 5%;
+		}
+		
+		.hotcountry h3{
+			font-size: 18px;
+			padding-top:10px;
+			padding-left:0px;
+			text-align: center;
+			margin-bottom: 2px;
+		
+		}
+		
+		
+		
+		.hotcountryList input{
+			float:left;
+			width: 45%;
+			height: 30px;
+			line-height:30px;
+			font-size: 16px;
+			margin:0 2.5%;
+		}
+		
+		
+		
+		
+		.hr{
+			width: 90%;
+			height: 0;
+			border-bottom: 1px dashed #559AC8;
+			margin-left: 5%;
+			margin-top:10px;
+			position: relative;
+			margin-bottom: 30px;
+			
+		}
+		.hrimg{
+			height: 24px;
+			width: 24px;;
+			left:48%;
+		
+		
+		}
+		.hr img{
+			padding-left:4px;
+			padding-top: 8px;
+				
+		}
+		
+		.locationIntroduction{
+			width:99.99%;
+			margin-left: 0px;
+		
+		}
+		
+		.locationIntroductionTitle{
+			
+			font-size: 18px;
+			color: #8A82CC;
+			margin-left:0;
+			text-align: center;
+			margin-bottom:5px;
+		}
+		
+		.locationIntroductionList{
+			height: 300px;
+			overflow: scroll;
+			scroll-behavior: smooth;
+			
+		}
+		
+		
+		
+		.locationIntroductionLi{
+			width: 90%;
+			height: 320px;
+			float:left;
+			margin-left: 20px;
+			margin-right: 8px;
+			margin-bottom:25px;
+			position: relative;
+		}
+		
+		
+		
+		.liimg{
+			height:155px;
+		}
+		
+		.locationIntroductionLi h2{
+		
+			font-size: 26px;
+			top:20px;
+			left:22px;
+		
+		}
+		
+		.locationIntroductionLi h3{
+		
+			font-size: 20x;
+		
+			top:125px;
+			left:250px;
+		
+		}
+		
+		
+		.openDate{
+		
+			font-size: 10px;
+		
+			top:160px;
+			left:5px;
+			line-height:20px;
+		}
+		
+		.lilocal{
+		
+			font-size:10px;
+		
+			top:240px;
+			left:5px;
+			line-height:20px;
+		}
+		
+		.litel{
+		
+			font-size: 10px;
+			top:310px;
+			left:5px;
+			line-height:20px;
+		}
+		
+		.liticket{
+			font-size: 10px;
+			top : 310px;
+			left : 150px;
+			line-height:20px;
+		}
+		
+		.cleanfix{
+			clear: both;
+		}
+		
+		
+		.footer{
+			width: 100%;
+			height: 25px;
+		}
+		
+		.footer h3{
+		
+			font-size: 18px;
+		
+			line-height:17px;
+			position: absolute;
+			top:10%;
+			left:70px;
+		}
+		
+		.footer p{
+		
+			font-size: 18px;
+		
+			line-height:17px;
+			position: absolute;
+			top:10%;
+			left:170px;
+		}
+		}
+
+		@media(max-width:320px){
+	
+			body{
+				max-width: 100%;
+				height: 100%;	
+			}
+			.main{
+				width: 100%;
+			}
+			
+			.wrap{
+				margin: 0 2.5% ;
+				max-width:95%;
+			
+			}
+			
+			.wrap h2{
+				padding-top:5px;
+				margin-top:0px;
+				margin-left: 0;
+
+				text-align: center;
+				font-size: 18px;
+				letter-spacing:0px;
+				margin-bottom: 5px;
+				margin-top: 5px;
+			}
+			
+			.countrySelect{
+				border: 3px solid #FFFFFF;
+				width: 70%;
+				height:20px;
+				font-size: 10px;
+				margin-left:15%;
+				margin-bottom: 3%;
+			}
+			
+			.hotcountry{
+				width:90%;
+				height:40px;
+				margin:0 5%;
+			}
+			
+			.hotcountry h3{
+				font-size: 8px;
+				padding-top:5px;
+				padding-left:0px;
+				text-align: center;
+				margin-bottom: 1%;
+			
+			}
+			
+			
+			
+			.hotcountryList input{
+				float:left;
+				width: 20%;
+				height: 20px;
+				line-height:15px;
+				font-size: 8px;
+				margin:0 2.5%;
+			}
+			
+			
+			
+			
+			.hr{
+				width: 90%;
+				height: 0;
+				border-bottom: 1px dashed #559AC8;
+				margin-left: 5%;
+				margin-top:5px;
+				position: relative;
+				margin-bottom: 15px;
+				
+			}
+			.hrimg{
+				height: 12px;
+				width: 12px;;
+				left:49%;
+				margin-bottom: 10px;
+			
+			}
+			.hr img{
+				padding-left:0px;
+				padding-top: 0px;
+					
+			}
+			
+			.locationIntroduction{
+				width:99.99%;
+				margin-left: 0px;
+			
+			}
+			
+			.locationIntroductionTitle{
+				
+				font-size: 12px;
+				color: #8A82CC;
+				margin-left:0;
+				text-align: center;
+				margin-bottom:5px;
+			}
+			
+			.locationIntroductionList{
+				height: 205px;
+				overflow: scroll;
+				scroll-behavior: smooth;
+				
+			}
+			
+			
+			
+			.locationIntroductionLi{
+				width: 90%;
+				height:200px;
+				float:left;
+				margin-left: 5px;
+				margin-right: 4px;
+				margin-bottom:25px;
+				position: relative;
+			}
+			
+			
+			
+			.liimg{
+				height:80px;
+			}
+			
+			.locationIntroductionLi h2{
+			
+				font-size: 20px;
+				top:8px;
+				left:15px;
+			
+			}
+			
+			.locationIntroductionLi h3{
+			
+				font-size: 16px;
+			
+				top:60px;
+				left:200px;
+			
+			}
+			
+			
+			.openDate{
+			
+				font-size: 10px;
+			
+				top:90px;
+				left:5px;
+				line-height:12px;
+			}
+			
+			.lilocal{
+			
+				font-size:10px;
+			
+				top:140px;
+				left:5px;
+				line-height:20px;
+			}
+			
+			.litel{
+			
+				font-size: 10px;
+				top:185px;
+				left:5px;
+				line-height:20px;
+			}
+			
+			.liticket{
+				font-size: 10px;
+				top : 180px;
+				left : 200px;
+				line-height:20px;
+			}
+			
+			.cleanfix{
+				clear: both;
+			}
+			
+			
+			.footer{
+				width: 100%;
+				height: 20px;
+			}
+			
+			.footer h3{
+			
+				font-size: 8px;
+			
+				line-height:8px;
+				position: absolute;
+				top:20%;
+				left:40px;
+			}
+			
+			.footer p{
+			
+				font-size: 8px;
+			
+				line-height:8px;
+				position: absolute;
+				top:20%;
+				left:150px;
+			}
+			}
